@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>Signup Form</title>
 </head>
+
 <body>
   <h1>Signup Form</h1>
   
@@ -14,13 +16,13 @@
     <input type="email" id="email" name="email" required><br><br>
     
     <label>Gender:</label><br>
-    <input type="radio" id="gender_m" name="gender" required>
+    <input type="radio" id="gender_m" name="gender" value="male" required>
     <label for="gender_m">Male</label>
-    <input type="radio" id="gender_f" name="gender" required>
+    <input type="radio" id="gender_f" name="gender" value="female" required>
     <label for="gender_f">Female</label><br><br>
     
     <label for="cars">Car Brands:</label>
-    <select id="cars" name="cars" required>
+    <select id="cars" name="car_brand" required>
       <option value="" disabled selected>--Please choose an option--</option>
       <option value="audi">Audi</option>
       <option value="bmw">BMW</option>
@@ -44,7 +46,8 @@
     <input type="checkbox" id="tos" name="tos" required>
     <label for="tos">I agree to the TOS</label><br><br>
     
-    <button>submit</button>
+    <button type="submit">Submit</button>
   </form>
 </body>
+
 </html>
